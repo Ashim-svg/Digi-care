@@ -1,0 +1,122 @@
+.appoint-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.doc-container {
+    max-width: 800px;
+    margin: 116px ;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.headings {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.doctors {
+    margin-top: 40px;
+}
+
+.doctor-container {
+    display: flex;
+    align-items: center;
+}
+
+.doctor-info {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #d9ead3;
+    cursor: pointer;
+}
+
+.doctor-info h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.doctor-info p {
+    color: #666;
+}
+
+.doctor-image {
+    flex: 0 0 100px;
+    margin-left: 20px;
+}
+
+.doctor-image img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+#doctorList {
+    display: block;
+}
+
+#appointmentForm {
+    display: none;
+}
+
+#backButton {
+    display: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    
+}
+
+#backButton:hover {
+    background-color: #45a049;
+}

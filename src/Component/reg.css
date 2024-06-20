@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-position: right;
+    background-size: contain;
+    margin-left: 55px;
+    
+  }
+
+  
+  
+  .wrap {
+    width: 450px;
+    padding: 10px 50px;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    color: rgb(0, 0, 0);
+    position:relative;
+    margin-right: 75px;
+    height: 100vh;
+    bottom: 10px;
+  }
+ 
+  .log h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .userinfo input,
+  .usertypes select,
+  .requirements input[type="text"] {
+    font: 15px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 100%;
+    height: 47px;
+    border-radius: 50px;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+    margin-bottom: 15px;
+  }
+  
+  .usertypes label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .requirements label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .requirements input[type="radio"] {
+    margin-right: 1000px;
+  }
+  
+  .link p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  
+  .link p a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .link a:hover {
+    text-decoration: underline;
+  }
+  
+  .requirements button {
+    width: 100%;
+    height: 45px;
+    border-radius: 50px;
+    background-color: rgb(255, 253, 253);
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .requirements button:hover {
+    color: aqua;
+  }
+
+  
+  .radion {
+    display: flex;
+    flex-direction: row; /* Align radio buttons horizontally */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .radion input[type="checkbox"],
+  .radion input[type="radio"] {
+    margin-right: 10px; /* Adjust as needed for spacing between radio buttons */
+    width: 35px; /* Adjust the size of the radio button */
+    height: 16px; /* Adjust the size of the radio button */
+  }
+  
